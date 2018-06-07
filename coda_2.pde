@@ -151,6 +151,8 @@ void draw() {
     textSize(30);
     textAlign(LEFT);
     text("Mode: " + mode.toString(), 10, height - 30);
+    textAlign(RIGHT);
+    text("(p): Screenshot", width - 10, height - 30);
     textAlign(CENTER);
     text("(1/a): Add Node   (2/r): Remove Node   (3/c): Connect   (4/d): Disconnect   (i/5): Infect   (SPACE): Select", width / 2, 30);
     text("(x): Generate connections   (TAB): Space out nodes   (s): Run one step   (ENTER): Play/Pause", width / 2, 70);
@@ -253,7 +255,7 @@ void keyPressed() {
             viewer.spaceNodes();
             break;
         case 'p':
-            saveFrame();
+            saveFrame("frames/####.tif");
             break;
     }
 }
