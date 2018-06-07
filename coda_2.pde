@@ -252,6 +252,9 @@ void keyPressed() {
         case TAB:
             viewer.spaceNodes();
             break;
+        case 'p':
+            saveFrame();
+            break;
     }
 }
 
