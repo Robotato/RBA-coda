@@ -34,7 +34,7 @@ When xenophilia reaches moderate values however, the result is a small-world net
 
 When xenophilia is complete, i.e. people are as likely to make connections with people different from them as anyone else, the result is a network which is too highly connected for complex ideas to travel, in accordance with small-world network theory. This seems like an unrealistic situation unlikely to be found in real life, but offers an interesting thought experiment nonetheless.
 
-<img src="docs/extreme-xenophilia.png" width=50% />
+<img src="docs/extreme-xenophilia.jpg" width=50% />
 
 # How To Run
 
