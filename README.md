@@ -1,5 +1,7 @@
 # RBA-coda
 
+![](docs/splash.png)
+
 # Description
 
 I present this program as my coda for PWR 1LF: Rhetoric of Disability.
