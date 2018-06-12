@@ -1,12 +1,12 @@
 # RBA-coda
 
-![](docs/splash.png)
+![Two disconnected networks, one of orange nodes, and one of purple nodes](docs/splash.png)
 
 # Description
 
-I present this program as my coda for PWR 1LF: Rhetoric of Disability.
+This program is my coda for PWR 1LF: Rhetoric of Disability.
 
-My paper argues for adopting a policy of xenophilia and reciprocal care in order to establish equitable, non-normative societies. 
+My paper argues for adopting a policy of community xenophilia and reciprocal care in order to establish equitable, non-normative societies. 
 I approach the issue from feminist, disability studies, and social network theory perspectives, in order to argue that reciprocal care leads to societies that preserve identities while promoting the spread of complex ideas including non-normativity.
 
 To support this argument, I made a simulation tool which models social network formation and the spread of complex ideas, drawing on the existing models of "small-world" networks, and "complex contagions".
@@ -42,7 +42,7 @@ When xenophilia is complete, i.e. people are as likely to make connections with 
 
 First, download or clone the repository using the download button on github.
 If you have Processing(https://processing.org/) installed on your device, you can open coda_2.pde in Processing, and press the play button.
-On the other hand, I have created several executable versions available in the application-... folders. Executables are available for Linux and Windows; unfortunately there is no option for Mac OSX yet. 
+On the other hand, I have created several executable versions available in the application folders. Executables are available for Linux and Windows; unfortunately there is no option for Mac OSX yet. 
 
 # Limitations
 
@@ -51,6 +51,7 @@ Any model of a complex process such as human social networks is bound to be inco
 - Does not take space into account
 - Assumes that the threshold for an idea to infect is the same for everyone
 - Assumes that everyone has the same shared level of xenophilia
+- Does not account for weighted connections
 
 These limitations may be undermine the possibility of drawing generalizable conclusions, and may be addressed in future work. However, this model represents a first step to thinking about community formation in a context of diversity and seeking non-normative structures of society.
 
